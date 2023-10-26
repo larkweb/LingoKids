@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ex">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    LingoKids
+  </title>
+  <meta name="title" content="Adex">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a class="logo">
+        <img src="./assets/images/logo-white.png" class="logo-light">
+
+        <img src="./assets/images/logo-black.png" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a class="logo">
+            <img src="./assets/images/Lingokids-logo1.png" width="74" height="24">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Inicio</a>
+          </li>
+          <li>
+            <a href="#service" class="navbar-link">Servicios</a>
+          </li>
+          <li>
+            <a href="#about" class="navbar-link">Recursos</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Clase</a>
+          </li>
+
+
+        </ul>
+
+        <div class="wrapper">
+          <a class="contact-link">Lingokids@email.com</a>
+
+          <a href="tel:001234567890" class="contact-link">+57 3106467801</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section id="home" class="section hero has-bg-image" aria-label="home"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">¡Bienvenidos a la Aventura de Aprendizaje de Inglés para Niños!</h1>
+
+            <p class="hero-text">
+              Aprender inglés puede ser divertido y emocionante. Explora nuestro mundo de aprendizaje interactivo
+              diseñado especialmente para Niños.
+            </p>
+
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/clasesdeingles.jpg" width="575" height="550" class="img-cover">
+                  </figure>
+
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section id="service" class="section service" aria-labelledby="service-label">
+        <div class="container">
+          <p class="section-subtitle" id="service-label">¿Qué hacemos?</p>
+          <h2 class="h2 section-title">
+            Nuestros servicios están diseñados para tu comodidad.
+          </h2>
+          <ul class="grid-list">
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h4 card-title">Ayuda 24/7</h3>
+                <p class="card-text">
+                  Siempre estamos disponibles para ayudarte. Puedes contactarnos en cualquier momento.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h4 card-title">Estas seguro</h3>
+                <p class="card-text">
+                  En nuestra pagina web estaras en un contenido seguro y garantizamos la protección de tu información.
+                </p>
+
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h4 card-title">Actualizaciones Diarias</h3>
+                <p class="card-text">
+                  Nos esforzamos por ofrecer contenido nuevo todos los días. ¡Siempre hay algo emocionante que aprender!
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+                <h3 class="h4 card-title">Investigación de Mercado</h3>
+                <p class="card-text">
+                  Descubre el inglés con nosotros.Nuestro contenido está diseñado para tu diversión y aprendizaje </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="about" aria-labelledby="about-label">
+        <div class="container">
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="800" height="580" loading="lazy" class="w-100">
+          </figure>
+          <div class="about-content">
+            <p class="section-subtitle" id="about-label">¡Aprendamos Juntos!</p>
+            <h2 class="h2 section-title">
+              Explorando Números y Colores de Manera Divertida.
+            </h2>
+            <ul>
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                      <span class="span h5">Números (Numbers)</span>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    ¡Hoy vamos a aprender números! Empecemos con los básicos: 1 (one), 2 (two), 3 (three), 4 (four), 5
+                    (five). ¿Puedes contar conmigo?
+                  </p>
+                </div>
+              </li>
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                      <span class="span h5">Colores (Colors)</span>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    ¡Ahora, exploremos los colores! Mira a tu alrededor y dime de qué color es tu camiseta. ¿Es roja
+                    (red), azul (blue), verde (green) u otro color? Aprendamos más colores juntos.
+                  </p>
+                </div>
+              </li>
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+                      <span class="span h5">Actividades Divertidas (Fun Activities)</span>
+                    </button>
+                  </h3>
+                  <p class="accordion-content">
+                    ¡A lo largo de tu vida haces acciones que tienen su significado en ingles! Como lo es dormir
+                    (sleep), jugar (play), comer (Eat).Es hora de aprender muchas más.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+      - #FEATURE
+    -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" class="w-100">
+          </figure>
+          <div class="feature-content">
+            <p class="section-subtitle" id="feature-label">Continuemos Aprendiendo</p>
+            <h2 class="h2 section-title">
+              Haciendo el Aprendizaje Divertido y Fácil.
+            </h2>
+            <p class="section-text">
+              Aprender no debería ser estresante, ¡debería ser emocionante! Aquí hay algunas formas en que hacemos que
+              el aprendizaje sea divertido y sencillo:
+            </p>
+            <ul class="feature-list">
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">
+                    Actividades Interactivas: Aprenderemos con juegos y actividades interactivas para que sea más
+                    divertido.
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">
+                    Colores y Números: Continuaremos explorando colores y números juntos para que no te pierdas nada.
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">
+                    Historias Asombrosas: Escucharemos y leeremos historias emocionantes que te enseñarán nuevas
+                    palabras en inglés.
+                  </span>
+                </div>
+              </li>
+              <li>
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">
+                    ¡Explora y Aprende! Salgamos al mundo real y descubramos cómo usar el inglés en la vida cotidiana.
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- 
+      - #PROJECT
+    -->
+
+      <section id="projects" class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Explora y aprende mucho más</p>
+
+          <h2 class="h2 section-title">
+            Descubre el Maravilloso Mundo de los Colores, Números y Actividades Divertidas.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/colors.png" width="560" height="350" loading="lazy" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a class="card-title">Explora los Colores</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Descubre el emocionante mundo de los colores. Aprende a decir los nombres de tus colores favoritos
+                    en inglés. ¿Cuál es tu color favorito?
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/numeros.jpg" width="560" height="350" loading="lazy" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a class="card-title">Números en Inglés</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Aprende a contar en inglés de una manera divertida. ¡Es hora de jugar y aprender sobre los números
+                    en inglés!
+
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/actividades.png" width="560" height="350" loading="lazy" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a class="card-title">Actividades Divertidas</a>
+                  </h3>
+
+                  <p class="card-text">
+                    ¡Aprender es haciendo! Descubre actividades emocionantes como jugar, pintar, cantar y muchas más.
+                    Aprender nunca ha sido tan divertido.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Es hora de poner en practica lo aprendido hoy!
+          </h2>
+
+          <a href="quiz.html" class="btn btn-primary">Iniciar Quiz</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
